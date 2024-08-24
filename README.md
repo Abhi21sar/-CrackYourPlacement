@@ -1,20 +1,24 @@
-Flight Fare Prediction:
-Overview
-This is a Flask web app which predicts fare of Flight ticket.
+# Flight Fare Prediction
 
-Motivation
-What to do when you are at home due to this pandemic situation? I started to learn Machine Learning model to get most out of it. I came to know mathematics behind all supervised models. Finally it is important to work on application (real world application) to actually make a difference.
+## Overview
+This Flask web app predicts the fare of Flight tickets, leveraging Machine Learning to provide accurate estimations.
 
-Installation
-The Code is written in Python 3.6.10. If you don't have Python installed you can find it here. If you are using a lower version of Python you can upgrade using the pip package, ensuring you have the latest version of pip. To install the required packages and libraries, run this command in the project directory after cloning the repository:
+## Motivation
+During the pandemic lockdown, I began exploring Machine Learning to delve into the mathematical foundations of supervised models. This project represents the culmination of that learning, applying theoretical knowledge to a practical, real-world application.
 
+## Installation
+The code is written in Python 3.6.10. If you don't have Python installed, you can download it [here](https://www.python.org/downloads/). If you are using a lower version of Python, upgrade it using the pip package to ensure you have the latest version of pip. To install the required packages and libraries, run the following command in your project directory after cloning the repository:
+```
 pip install -r requirements.txt
-Deployment on Heroku
-Login or signup in order to create virtual app. You can either connect your github profile or download ctl to manually deploy this project.
+```
 
-If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an issue here by including your search query and the expected result
+## Deployment on Heroku
+Create a virtual app by logging in or signing up at [Heroku](https://www.heroku.com/). You can connect your GitHub profile or download the Heroku CLI to manually deploy this project.
 
-Future Scope
-Use multiple Algorithms
-Optimize Flask app.py
-Front-End
+## Bug Report
+If you encounter any bugs, please open an issue [here](https://github.com/yourusername/yourprojectname/issues) with your search query and the expected result.
+
+## Future Scope
+- Use multiple algorithms to enhance prediction accuracy.
+- Optimize the Flask `app.py`.
+- Improve the Front-End design to enhance user experience.
